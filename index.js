@@ -3,18 +3,19 @@ let characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","
 
 let password1El = document.getElementById("password1-el")
 let password2El = document.getElementById("password2-el")
-let randomLength = 15
+let passwordLength = 15
 
 function generatePassword() {
      // console.log("Generating Passwords")
      password1El.textContent = ""
      password2El.textContent = ""
-     for ( i = 0; i < randomLength; i++ ) {
-        let randomPassword1 = Math.floor( Math.random() * characters.length )
-        let randomPassword2 = Math.floor( Math.random() * characters.length )
-        password1El.textContent += characters[randomPassword1]
-        password2El.textContent += characters[randomPassword2]
+     for ( i = 0; i < passwordLength; i++ ) {
+        password1El.textContent += getRandomCharacter()
+        password2El.textContent += getRandomCharacter()
      }
 }
 
+function getRandomCharacter() {
+    return characters[Math.floor( Math.random() * characters.length )]
+}
 
