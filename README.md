@@ -8,4 +8,4 @@ HTML, CSS, & JavaScript
 
 # About
 
-A generator to create two custom passwprds.
+A generator to create two custom passwords.
