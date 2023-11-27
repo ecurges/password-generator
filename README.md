@@ -4,7 +4,7 @@ https://dainty-puppy-38b1ba.netlify.app/
 
 # Technolgies Used
 
-HTML, CSS, $ JavaScript
+HTML, CSS, & JavaScript
 
 # About
 
