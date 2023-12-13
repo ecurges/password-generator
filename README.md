@@ -1,6 +1,6 @@
 # Demo
 
-https://dainty-puppy-38b1ba.netlify.app/
+https://customgenpasswords.netlify.app/
 
 # Technolgies Used
 
